@@ -15,7 +15,7 @@ jobname = f"{src_path}/output_graph"
 
 DFN = DFNWORKS(jobname, ncpu=8)
 
-DFN.params['domainSize']['value'] = [10, 10, 10]
+DFN.params['domainSize']['value'] = [50, 50, 50]
 DFN.params['h']['value'] = 0.1
 DFN.params['tripleIntersections']['value'] = True
 DFN.params['stopCondition'][
